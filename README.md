@@ -83,7 +83,7 @@ This dashboard addresses these issues by combining **KPI-driven analytics** and 
 
 ## 🔗 Live Dashboard
 You can view the live interactive Power BI dashboard here:  
-[**View Dashboard**](PASTE_YOUR_POWER_BI_PUBLISHED_LINK_HERE)
+[**View Dashboard**]<iframe title="Covid 19" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYjI2NDM1NWQtM2M2Ni00M2Y3LTk3ZmYtZTAwMTQ2YzgzNjY2IiwidCI6Ijg2MTI0OWYyLTE5NDYtNDQ3OC1iZTk4LTRlZWY4MzkwMzUxYiJ9" frameborder="0" allowFullScreen="true"></iframe>
 
 ---
 
