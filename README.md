@@ -21,7 +21,7 @@ This project addresses those gaps with a **KPI-driven** Overview and an **intera
 ---
 
 ## 🧭 Dashboard Structure
-<img width="1480" height="960" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/05296292-864d-4892-b295-a7bf83ef85c1" />
+<img width="1302" height="878" alt="image" src="https://github.com/user-attachments/assets/56538e62-db17-4f27-8524-66588695774c" />
 <img width="1303" height="813" alt="image" src="https://github.com/user-attachments/assets/e890dea5-581b-4227-b9de-0d1166b6e8e8" />
 
 
