@@ -1,93 +1,101 @@
-# 🦠 COVID-19 Insights Dashboard (Power BI)
+# 🦠 COVID-19 Insights Dashboard – Power BI
 
-A two-tab interactive **Power BI** report that turns raw global COVID-19 data into clear, actionable insights on **trends**, **severity**, and **geographic spread**.
+## 📌 Project Overview
+This project is an **interactive Power BI dashboard** that provides a comprehensive analysis of **global COVID-19 pandemic data**.  
+It transforms complex, multi-country datasets into **clear visual analytics** that highlight key metrics, trends, and geographic patterns of the pandemic.
 
-> **Tabs**
-> 1) **Overview** – KPIs, trends, and Top-10 comparisons  
-> 2) **Map** – Global COVID-19 Spread & Severity
+The dashboard is designed to help **policy makers, healthcare organizations, researchers, and the public** make informed decisions by visualizing critical information such as **total cases, fatalities, case fatality rates (CFR), and global spread** in an interactive manner.
 
----
-
-## 📌 Problem Statement
-
-Large volumes of global COVID-19 data—spread across countries and time—are hard to interpret quickly from raw tables. This makes it difficult to:
-- Identify countries with the highest burden of **cases** and **fatalities**
-- Monitor **Case Fatality Rate (CFR)** to detect higher-risk regions
-- Understand proportionality between **infections vs. deaths**
-- Track **geographic spread & severity** and spot emerging hotspots for timely, targeted interventions
-
-This project addresses those gaps with a **KPI-driven** Overview and an **interactive global map** to support evidence-based decisions.
+The solution is organized into **two main sections**:
+1. **Overview Dashboard** – KPIs, trends, and top country comparisons.
+2. **Map View** – Geographic spread and severity visualization.
 
 ---
 
-## 🧭 Dashboard Structure
-<img width="1302" height="878" alt="image" src="https://github.com/user-attachments/assets/56538e62-db17-4f27-8524-66588695774c" />
-<img width="1303" height="813" alt="image" src="https://github.com/user-attachments/assets/e890dea5-581b-4227-b9de-0d1166b6e8e8" />
+## 🚨 Problem Statement
+The COVID-19 pandemic has had unprecedented global health, social, and economic impacts.  
+Governments, healthcare providers, and the public rely heavily on **timely, accurate, and visualized data** to understand the scale of infections, mortality rates, and speed of spread.
 
+However, several challenges hinder effective decision-making:
+- **Data Complexity:** Large volumes of raw COVID-19 data are difficult to interpret quickly.
+- **Hotspot Identification:** Hard to pinpoint countries and regions with the highest case burdens and fatalities.
+- **Risk Monitoring:** Comparing **Case Fatality Rates (CFR)** across locations is cumbersome.
+- **Impact Proportionality:** Understanding the relationship between infections and deaths without visualization is difficult.
+- **Geographic Awareness:** Lack of clear spatial representation for outbreak severity.
 
-### 1) Overview
-**KPI Cards**
-- **Total Cases:** 54M  
-- **Total Deaths:** 3M  
-- **Case Fatality Rate (CFR):** 6.28%  
-- **Highest Daily New Cases:** 89K  
-
-**Visuals**
-- Global Trends (Cumulative Cases & Deaths)
-- Top 10 Countries by **Total Cases**
-- Top 10 Countries by **Total Deaths**
-- Top 10 Countries by **CFR (%)**
-- **Case Fatality Rate Leaders** (treemap)
-
-**Key Insights**
-- Sharp surge in global cases Mar–Apr 2020; deaths follow a similar shape at a lower slope  
-- Countries leading in **cases** are not always the leaders in **CFR**, suggesting differences in testing, healthcare capacity, and outbreak stage  
-- CFR leaders (e.g., France, Belgium, Italy in the sample) signal regions with higher mortality relative to infections
+This dashboard addresses these issues by combining **KPI-driven analytics** and **interactive geographic visualizations**.
 
 ---
 
-### 2) Map – Global Spread & Severity
-**What it shows**
-- Worldwide distribution of cases with proportional markers
-- Regional hotspots and clusters
+## 📊 Dashboard Sections & Key Insights
+<img width="1480" height="960" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/30cd0656-18d6-416e-90bd-f6316fb05db1" />
+<img width="1304" height="815" alt="image" src="https://github.com/user-attachments/assets/9b9d14c9-ea3e-4f33-86c9-19d37cfd0570" />
 
-**Findings**
-- Pandemic presence across nearly all continents
-- High-density clusters in **Europe**, **North America**, and **South Asia**
-- Several smaller countries/islands show large markers → potentially high **per-capita** rates
-- Clear spatial context to guide **resource allocation** and **interventions**
 
----
 
-## 🎯 Project Objectives
-- Convert raw COVID-19 data into **interactive, comprehensible** analytics
-- Track & compare **trends** using robust **KPIs** and time-series charts
-- Identify **hotspots** and **regional disparities**
-- Provide an intuitive **map** for location-based analysis and decision support
+### 1️⃣ Overview Dashboard
+**KPIs:**
+- **Total Cases:** 54M
+- **Total Deaths:** 3M
+- **Case Fatality Rate (CFR):** 6.28%
+- **Highest Daily New Cases:** 89K
 
----
-
-## 🛠 Tech Stack
-- **Microsoft Power BI** (reporting & interactivity)
-- Dataset fields used: `date`, `location`, `new_cases`, `new_deaths`, `total_cases`, `total_deaths`, and derived **CFR** measures
-
-> **Note:** CFR (%) = `total_deaths / total_cases * 100` (handled with safe division in DAX)
+**Visualizations & Insights:**
+- **Global Trends Chart:** Steep surge in cumulative cases from March to April 2020.
+- **Top 10 Countries by Total Cases:** United States leads, followed by China, Italy, and Spain.
+- **Top 10 Countries by Total Deaths:** Italy and Spain hardest hit.
+- **Top 10 Countries by CFR (%):** Zimbabwe and Sint Maarten have high mortality rates.
+- **Case Fatality Rate Leaders:** France, Belgium, and Italy rank high among major countries.
 
 ---
 
-## 📂 Repository Contents
+### 2️⃣ Map View – Global Spread & Severity
+**Findings:**
+- COVID-19 is present on nearly all continents.
+- Europe, North America, and South Asia (India) show largest clusters.
+- Certain small nations have high per capita infection rates.
+- Map enables quick identification of hotspots for targeted actions.
+
+---
+
+## 🎯 Objectives
+- Transform raw COVID-19 datasets into interactive, visually engaging analytics.
+- Track and compare pandemic trends over time.
+- Identify global and country-specific hotspots.
+- Enable real-time geographic analysis of outbreak severity.
+
+---
+
+## 🛠 Tools & Technologies
+- **Visualization Tool:** Microsoft Power BI
+- **Dataset:** Global COVID-19 statistics (cases, deaths, CFR)
+- **Features:** KPI Cards, Trend Analysis, Interactive Map, Date & Country Filters
+
+---
+
+## 📌 Why This Dashboard Matters
+- Provides **clarity** in pandemic data interpretation.
+- Highlights **where and when** interventions may be needed.
+- Offers **comparative metrics** for better global health strategy.
+- Supports **visual storytelling** for awareness and policy-making.
+
+---
+
+## 🔗 Live Dashboard
+You can view the live interactive Power BI dashboard here:  
+[**View Dashboard**](PASTE_YOUR_POWER_BI_PUBLISHED_LINK_HERE)
 
 ---
 
 ## 👤 Author
 **Emmanuel Ikechukwu Osuagwu**  
-*Data Analyst — interactive dashboards, KPI design, and geographic analytics.*
+**Role:** Data Analyst  
+**Focus Areas:** Interactive data visualization, KPI reporting, geographic analytics  
+**Passion:** Turning complex datasets into actionable insights  
 
-- LinkedIn: *(add link)*
-- Email: *(add email)*
+📧 **Email:** [your-email@example.com](mailto:your-email@example.com)  
+🌐 **LinkedIn:** [Your LinkedIn Profile](PASTE_YOUR_LINKEDIN_URL)  
 
 ---
 
-## 📄 License
-This project is licensed under the **MIT License** (or your preferred license). Add `LICENSE` file if applicable.
 
