@@ -93,8 +93,8 @@ You can view the live interactive Power BI dashboard here:
 **Focus Areas:** Interactive data visualization, KPI reporting, geographic analytics  
 **Passion:** Turning complex datasets into actionable insights  
 
-📧 **Email:** [your-email@example.com](mailto:your-email@example.com)  
-🌐 **LinkedIn:** [Your LinkedIn Profile](PASTE_YOUR_LINKEDIN_URL)  
+📧 **Email:** powerbi@ikechukwuosuagwu.onmicrosoft.com  
+🌐 **LinkedIn:** Emmanuel Ikechukwu Osuagwu (www.linkedin.com/in/emmanuel-ikechukwu-osuagwu-903a091bb)  
 
 ---
 
