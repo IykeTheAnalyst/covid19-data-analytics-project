@@ -79,55 +79,6 @@ This project addresses those gaps with a **KPI-driven** Overview and an **intera
 
 ---
 
-## ▶️ How to Use
-1. **Open** `Covid19_Insights.pbix` in **Power BI Desktop**
-2. Use the **Date** and **Country** slicers to filter views
-3. Switch between **Overview** and **Map** tabs for trends vs. spatial insights
-4. Hover over visuals for detailed tooltips; click bars/points to cross-filter
-
----
-
-## 📈 Example Observations (from the sample state)
-- **Total Cases:** 54M | **Total Deaths:** 3M | **CFR:** 6.28% | **Highest Daily New Cases:** 89K  
-- **Trends:** Rapid global escalation Mar–Apr 2020  
-- **Top-10s:** Vary by metric; **CFR leaders** differ from **total cases leaders**  
-- **Map:** Hotspots concentrated in **Europe**, **North America**, **South Asia**
-
-> Replace these numbers with your latest refresh if your dataset updates.
-
----
-
-## 🧪 Method Notes
-- Outlier handling and safe division used for CFR to avoid divide-by-zero errors
-- Visuals designed for **scanability** and **comparability** (Top-10 lists, treemap, KPIs)
-- Map uses proportional markers to reflect **relative severity**
-
----
-
-## ⚠️ Limitations
-- CFR depends on **testing coverage** and **reporting quality**; compare cautiously
-- Time windows and data refresh frequency may affect currentness
-- Per-capita comparisons require population-normalized views (future enhancement)
-
----
-
-## 🚀 Roadmap / Future Work
-- Normalize by population (cases/deaths **per 100k**)
-- Add **vaccination** metrics & overlays
-- Include **mobility** or **policy stringency** indices for context
-- Advanced **forecasting** or growth-rate analytics
-- Drill-through pages for **country profiles**
-
----
-
-## 📸 Screenshots
-> Add your images to `/assets` and update the links below.
-
-![Overview Dashboard](assets/overview_screenshot.png)
-![Map – Global Spread & Severity](assets/map_screenshot.png)
-
----
-
 ## 👤 Author
 **Emmanuel Ikechukwu Osuagwu**  
 *Data Analyst — interactive dashboards, KPI design, and geographic analytics.*
